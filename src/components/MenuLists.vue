@@ -59,6 +59,26 @@ export default {
         sourceMaxConnectionsCount: 1,
         targetMaxConnectionsCount: 3,
         acceptSource: ['time', 'event', 'start']
+      },
+      {
+        id: 5,
+        type: 'export',
+        shape: 'regularPolygon',
+        source: true,
+        target: true,
+        sourceMaxConnectionsCount: 1,
+        targetMaxConnectionsCount: 3,
+        acceptSource: ['time', 'event', 'start']
+      },
+      {
+        id: 6,
+        type: 'export',
+        shape: 'regularPolygon',
+        source: true,
+        target: true,
+        sourceMaxConnectionsCount: 1,
+        targetMaxConnectionsCount: 3,
+        acceptSource: ['time', 'event', 'start']
       }
     ])
 
